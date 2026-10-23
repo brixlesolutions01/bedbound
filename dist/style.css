@@ -1457,7 +1457,7 @@ header .brand img {
   isolation: isolate;
   min-height: 620px;
   padding: 80px 6%;
-  background: #faf9f5 url('assets/hero-banner-final.png') right center / auto 100% no-repeat;
+  background: #faf9f5 url('assets/hero-banner-final.webp') right center / auto 100% no-repeat;
 }
 .hero-opening::before {
   content: '';
@@ -1506,7 +1506,7 @@ header .brand img {
 
 /* One continuous background with no visible image start edge. */
 .hero-opening {
-  background-image: linear-gradient(90deg, #faf9f5f5 0%, #faf9f5eb 25%, #faf9f5c7 39%, #faf9f56b 53%, #faf9f500 72%), url('assets/hero-banner-final.png');
+  background-image: linear-gradient(90deg, #faf9f5f5 0%, #faf9f5eb 25%, #faf9f5c7 39%, #faf9f56b 53%, #faf9f500 72%), url('assets/hero-banner-final.webp');
   background-size: cover;
   background-position: center, center 42%;
   background-repeat: no-repeat;
@@ -1516,13 +1516,13 @@ header .brand img {
 }
 @media (max-width: 1000px) {
   .hero-opening {
-    background-image: linear-gradient(90deg, #faf9f5f5 0%, #faf9f5e6 36%, #faf9f580 65%, #faf9f526 100%), url('assets/hero-banner-final.png');
+    background-image: linear-gradient(90deg, #faf9f5f5 0%, #faf9f5e6 36%, #faf9f580 65%, #faf9f526 100%), url('assets/hero-banner-final.webp');
     background-position: center, 65% center;
   }
 }
 @media (max-width: 700px) {
   .hero-opening {
-    background-image: linear-gradient(90deg, #faf9f5f5, #faf9f5d9 65%, #faf9f580), url('assets/hero-banner-final.png');
+    background-image: linear-gradient(90deg, #faf9f5f5, #faf9f5d9 65%, #faf9f580), url('assets/hero-banner-final.webp');
     background-position: center, 60% center;
   }
 }
@@ -1531,7 +1531,7 @@ header .brand img {
 .hero-opening {
   min-height: 620px;
   background-color: #faf9f5;
-  background-image: linear-gradient(90deg, #faf9f5 0%, #faf9f5 29%, #faf9f5e6 36%, #faf9f54d 44%, transparent 52%), url('assets/hero-banner-final.png');
+  background-image: linear-gradient(90deg, #faf9f5 0%, #faf9f5 29%, #faf9f5e6 36%, #faf9f54d 44%, transparent 52%), url('assets/hero-banner-final.webp');
   background-size: 100% 100%, auto 100%;
   background-position: center, right center;
 }
@@ -1546,7 +1546,7 @@ header .brand img {
 }
 @media (max-width: 1100px) and (min-width: 701px) {
   .hero-opening {
-    background-image: linear-gradient(90deg, #faf9f5 0%, #faf9f5f5 25%, #faf9f5a6 38%, transparent 52%), url('assets/hero-banner-final.png');
+    background-image: linear-gradient(90deg, #faf9f5 0%, #faf9f5f5 25%, #faf9f5a6 38%, transparent 52%), url('assets/hero-banner-final.webp');
     background-size: 100% 100%, auto 100%;
   }
   .hero-opening .hero-copy {
@@ -1557,7 +1557,7 @@ header .brand img {
   .hero-opening {
     padding-bottom: 320px;
     min-height: 0;
-    background-image: linear-gradient(180deg, #faf9f5 0%, #faf9f5 57%, #faf9f5d9 63%, transparent 74%), url('assets/hero-banner-final.png');
+    background-image: linear-gradient(180deg, #faf9f5 0%, #faf9f5 57%, #faf9f5d9 63%, transparent 74%), url('assets/hero-banner-final.webp');
     background-size: 100% 100%, 100% auto;
     background-position: center, center bottom;
   }
@@ -1571,14 +1571,14 @@ header .brand img {
 
 /* Continuous edge-to-edge photograph, without a separate left panel. */
 .hero-opening {
-  background-image: linear-gradient(90deg, rgba(250,249,245,.87) 0%, rgba(250,249,245,.74) 30%, rgba(250,249,245,.28) 52%, rgba(250,249,245,0) 76%), url('assets/hero-banner-final.png');
+  background-image: linear-gradient(90deg, rgba(250,249,245,.87) 0%, rgba(250,249,245,.74) 30%, rgba(250,249,245,.28) 52%, rgba(250,249,245,0) 76%), url('assets/hero-banner-final.webp');
   background-size: cover;
   background-position: center, center 58%;
   min-height: 660px;
 }
 @media (max-width: 1100px) and (min-width: 701px) {
   .hero-opening {
-    background-image: linear-gradient(90deg, rgba(250,249,245,.9), rgba(250,249,245,.7) 35%, rgba(250,249,245,.12) 70%), url('assets/hero-banner-final.png');
+    background-image: linear-gradient(90deg, rgba(250,249,245,.9), rgba(250,249,245,.7) 35%, rgba(250,249,245,.12) 70%), url('assets/hero-banner-final.webp');
     background-size: cover;
     background-position: center;
   }
@@ -1587,7 +1587,7 @@ header .brand img {
   .hero-opening {
     padding-bottom: 220px;
     min-height: 700px;
-    background-image: linear-gradient(180deg, rgba(250,249,245,.96) 0%, rgba(250,249,245,.85) 37%, rgba(250,249,245,.25) 65%, rgba(250,249,245,0) 100%), url('assets/hero-banner-final.png');
+    background-image: linear-gradient(180deg, rgba(250,249,245,.96) 0%, rgba(250,249,245,.85) 37%, rgba(250,249,245,.25) 65%, rgba(250,249,245,0) 100%), url('assets/hero-banner-final.webp');
     background-size: cover;
     background-position: center, 55% center;
   }
@@ -1725,7 +1725,7 @@ header .brand img {
 
 /* Fade only behind the copy; leave the lower photograph unobscured. */
 .hero-opening {
-  background-image: url('assets/hero-banner-final.png');
+  background-image: url('assets/hero-banner-final.webp');
   background-size: 100% 100%;
   background-position: center;
   padding-top: 52px;
@@ -1763,7 +1763,7 @@ header .brand img {
 @media (max-width: 1100px) and (min-width: 701px) {
   .hero-opening {
     padding-top: 30px;
-    background-image: url('assets/hero-banner-final.png');
+    background-image: url('assets/hero-banner-final.webp');
   }
   .hero-opening::before {
     mask-image: linear-gradient(to bottom, black 0%, black 42%, transparent 80%);
@@ -2158,7 +2158,7 @@ header nav {
     aspect-ratio: auto;
     min-height: 660px;
     padding: 36px 5% 90px;
-    background: #f5f7f5 url('assets/hero-banner-final.png') 65% center / cover no-repeat;
+    background: #f5f7f5 url('assets/hero-banner-final.webp') 65% center / cover no-repeat;
   }
   .hero-opening::before {
     display: block;

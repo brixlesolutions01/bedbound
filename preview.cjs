@@ -29,6 +29,7 @@ http
           ".js": "text/javascript",
           ".png": "image/png",
           ".jpg": "image/jpeg",
+          ".webp": "image/webp",
         }[path.extname(file)] || "application/octet-stream",
       );
       res.end(data);

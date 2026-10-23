@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <link rel="icon" type="image/jpeg" href="assets/logo.jpg" />
-    <link rel="apple-touch-icon" href="assets/logo.jpg" />
+    <link rel="icon" type="image/webp" href="assets/logo.webp" />
+    <link rel="apple-touch-icon" href="assets/logo.webp" />
     <script>
       // Keep restoration disabled until the browser finishes restoring the page.
       const navigationEntry = performance.getEntriesByType("navigation")[0];
@@ -23,12 +23,13 @@
         }, { once: true });
       }
     </script>
+    <link rel="preload" as="image" href="assets/hero-banner-final.webp" fetchpriority="high" />
     <title>Bed Bound Solutions | Roll Bed Bath & In-Home Care</title>
     <meta
       name="description"
       content="Discover the Roll Bed Bath and compassionate in-home caregiving from Bed Bound Solutions in Winston Salem, North Carolina."
     />
-    <link rel="stylesheet" href="style.css?v=56" />
+    <link rel="stylesheet" href="style.css?v=57" />
   </head>
   <body>
     <div class="topbar">
@@ -37,7 +38,7 @@
     </div>
     <header>
       <a class="brand" href="#home" aria-label="Bed Bound Solutions home"
-        ><img src="assets/logo.jpg" alt="Bed Bound Solutions"
+        ><img src="assets/logo.webp" alt="Bed Bound Solutions"
       /></a>
       <nav id="navigation" aria-label="Main navigation">
         <a href="#solutions">Our solutions</a
@@ -76,7 +77,7 @@
         </div>
         <div class="hero-visual">
           <img
-            src="assets/hero-banner-final.png"
+            src="assets/hero-banner-final.webp"
             alt="Caregiver smiling and holding the hand of an older adult resting in bed"
             fetchpriority="high"
           />
@@ -93,19 +94,19 @@
       <section id="care-values" class="care-strip" aria-label="Thoughtful bathing features">
         <div class="feature-ribbon">
           <div class="ribbon-feature">
-            <img src="assets/Comfort.png" alt="" width="312" height="312" />
+            <img src="assets/Comfort.webp" alt="" width="312" height="312" />
             <h2>Comfort</h2>
           </div>
           <div class="ribbon-feature">
-            <img src="assets/Ease-of-Use.png" alt="" width="312" height="312" />
+            <img src="assets/Ease-of-Use.webp" alt="" width="312" height="312" />
             <h2>Ease of use</h2>
           </div>
           <div class="ribbon-feature">
-            <img src="assets/Durability.png" alt="" width="312" height="312" />
+            <img src="assets/Durability.webp" alt="" width="312" height="312" />
             <h2>Durability</h2>
           </div>
           <div class="ribbon-feature">
-            <img src="assets/Safety-Features.png" alt="" width="312" height="312" />
+            <img src="assets/Safety-Features.webp" alt="" width="312" height="312" />
             <h2>Safety features</h2>
           </div>
         </div>
@@ -123,7 +124,7 @@
         </div>
         <div class="credentials-logo">
           <img
-            src="assets/ncbon.png"
+            src="assets/ncbon.webp"
             alt="NCBON - North Carolina Board of Nursing"
             width="888"
             height="246"
@@ -167,23 +168,23 @@
         <div class="product-slider" role="region" aria-roledescription="carousel" aria-label="Roll Bed Bath photos" tabindex="0">
           <div class="product-slides">
             <figure class="product-slide" role="group" aria-roledescription="slide" aria-label="1 of 5">
-              <img src="assets/2.png" alt="Bedside bathing illustration" width="1920" height="1080" loading="lazy" />
+              <img src="assets/2.webp" alt="Bedside bathing illustration" width="1920" height="1080" loading="lazy" />
               <figcaption>Bedside bathing illustration</figcaption>
             </figure>
             <figure class="product-slide" hidden role="group" aria-roledescription="slide" aria-label="2 of 5">
-              <img src="assets/product-4.png" alt="Contoured head support" width="1920" height="1080" loading="lazy" />
+              <img src="assets/product-4.webp" alt="Contoured head support" width="1920" height="1080" loading="lazy" />
               <figcaption>Contoured head support</figcaption>
             </figure>
             <figure class="product-slide" hidden role="group" aria-roledescription="slide" aria-label="3 of 5">
-              <img src="assets/product-1.png" alt="Integrated head support in use" width="1920" height="1080" loading="lazy" />
+              <img src="assets/product-1.webp" alt="Integrated head support in use" width="1920" height="1080" loading="lazy" />
               <figcaption>Integrated head support in use</figcaption>
             </figure>
             <figure class="product-slide" hidden role="group" aria-roledescription="slide" aria-label="4 of 5">
-              <img src="assets/product-3.png" alt="Assisted bedside bathing illustration" width="1920" height="1080" loading="lazy" />
+              <img src="assets/product-3.webp" alt="Assisted bedside bathing illustration" width="1920" height="1080" loading="lazy" />
               <figcaption>Assisted bedside bathing illustration</figcaption>
             </figure>
             <figure class="product-slide" hidden role="group" aria-roledescription="slide" aria-label="5 of 5">
-              <img src="assets/Roll-Bed-Bath-1.png" alt="Handheld shower head and hose connections" width="1920" height="1080" loading="lazy" />
+              <img src="assets/Roll-Bed-Bath-1.webp" alt="Handheld shower head and hose connections" width="1920" height="1080" loading="lazy" />
               <figcaption>Handheld shower head and hose connections</figcaption>
             </figure>
           </div>
@@ -193,11 +194,11 @@
             <button class="slider-next" type="button">Next</button>
           </div>
           <div class="slider-thumbnails" aria-label="Choose product photo">
-            <button type="button" data-slide="0" aria-label="Show bedside bathing illustration" aria-pressed="true"><img src="assets/2.png" alt="" loading="lazy" /></button>
-            <button type="button" data-slide="1" aria-label="Show contoured head support" aria-pressed="false"><img src="assets/product-4.png" alt="" loading="lazy" /></button>
-            <button type="button" data-slide="2" aria-label="Show integrated head support in use" aria-pressed="false"><img src="assets/product-1.png" alt="" loading="lazy" /></button>
-            <button type="button" data-slide="3" aria-label="Show assisted bedside bathing illustration" aria-pressed="false"><img src="assets/product-3.png" alt="" loading="lazy" /></button>
-            <button type="button" data-slide="4" aria-label="Show handheld shower head and hose connections" aria-pressed="false"><img src="assets/Roll-Bed-Bath-1.png" alt="" loading="lazy" /></button>
+            <button type="button" data-slide="0" aria-label="Show bedside bathing illustration" aria-pressed="true"><img src="assets/2.webp" alt="" loading="lazy" /></button>
+            <button type="button" data-slide="1" aria-label="Show contoured head support" aria-pressed="false"><img src="assets/product-4.webp" alt="" loading="lazy" /></button>
+            <button type="button" data-slide="2" aria-label="Show integrated head support in use" aria-pressed="false"><img src="assets/product-1.webp" alt="" loading="lazy" /></button>
+            <button type="button" data-slide="3" aria-label="Show assisted bedside bathing illustration" aria-pressed="false"><img src="assets/product-3.webp" alt="" loading="lazy" /></button>
+            <button type="button" data-slide="4" aria-label="Show handheld shower head and hose connections" aria-pressed="false"><img src="assets/Roll-Bed-Bath-1.webp" alt="" loading="lazy" /></button>
           </div>
         </div>
         <div class="product-copy">
@@ -381,7 +382,7 @@
     <footer>
       <div class="footer-top">
         <a class="brand" href="#home"
-          ><img src="assets/logo.jpg" alt="Bed Bound Solutions" loading="lazy"
+          ><img src="assets/logo.webp" alt="Bed Bound Solutions" loading="lazy"
         /></a>
         <p>Thoughtful solutions.<br />Compassionate care. Every day.</p>
         <div>
